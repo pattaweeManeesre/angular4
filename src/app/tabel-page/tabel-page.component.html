@@ -1,0 +1,17 @@
+<div class="container">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th *ngFor="let header of dataHeader">{{header}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let body of dataBody">
+        <td>{{body.name}}</td>
+        <td>{{body.lastName}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+</div>
